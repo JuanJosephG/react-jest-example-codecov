@@ -22,7 +22,7 @@ describe('async example', () => {
     return axios.get(`${apiURL}/users/1`).then(res => {
       expect(res.data).toMatchObject({
         name: 'Linmic',
-        age: 32,
+        age: 31,
       });
     });
   });
