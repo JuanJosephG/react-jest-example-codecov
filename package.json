@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "TZ=Asia/Tokyo jest --verbose"
+    "test": "TZ=Asia/Tokyo jest --coverage"
   },
   "dependencies": {
     "axios": "^0.16.2",
