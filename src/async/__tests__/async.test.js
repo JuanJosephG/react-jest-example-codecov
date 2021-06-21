@@ -32,7 +32,7 @@ describe('async example', () => {
 
     expect(result.data).toMatchObject({
       name: 'Linmic',
-      age: 32,
+      age: 31,
     });
   });
 });
